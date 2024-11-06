@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>InicioSesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>
+              Bienvenido
+            </ion-card-title>
+            <ion-card-subtitle>
+              Inicio de Sesion
+            </ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-grid>
+
+              <ion-row>
+                <ion-col>
+                  <ion-input label="Usuario" labelPlacement="floating" fill="outline" type="text"></ion-input>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col>
+                  <ion-input label="Contraseña" labelPlacement="floating" fill="outline" type="password"></ion-input>
+                  <ion-item>
+                    <ion-label>Recuerdame</ion-label>
+                    <ion-toggle slot="end"></ion-toggle>
+                  </ion-item>                  
+                </ion-col>
+              </ion-row>
+              
+              <ion-row>
+                <ion-col>
+                  <ion-button expand="block">
+                    inicio de sesion
+                  </ion-button>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
